@@ -11,4 +11,4 @@
 1. Routing
 2. Joi Form validation
 3. Proper components destructuring
-4. Saving form data and displaying using APIs is implement.
+4. Saving form data and displaying using APIs is implemented.
