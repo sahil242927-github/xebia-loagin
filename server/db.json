@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstname": "dfsadf",
+      "lastname": "asdfdsa",
+      "username": "sahil4all2429@gmail.com",
+      "password": "sahil4all2429@gmail.com",
+      "email": "sk2117682@gmail.com",
+      "id": 1
+    },
+    {
+      "firstname": "Mohd",
+      "lastname": "Sahil",
+      "username": "sahil4all2429@gmail.com",
+      "password": "12324",
+      "email": "sahil24@gmail.com",
+      "id": 2
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/form";
 import history from "../history";
+import users from "../apis/users";
 
 class RegisterForm extends Form {
   state = {
@@ -36,9 +37,13 @@ class RegisterForm extends Form {
       .label("Email")
   };
 
-  doSubmit = () => {
+  doSubmit = async () => {
     // Call the server
-    console.log("Submitted");
+    console.log(this.state);
+
+    // creating user
+    const response = await users.post("/users", this.state.data);
+    console.log(response);
     history.push("/userlist");
   };
 
