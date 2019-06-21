@@ -31,7 +31,7 @@ class LoginForm extends Form {
     if (userObj) {
       history.push("/userlist");
     } else {
-      this.state.loginStatus = false;
+      this.setState({ loginStatus: false });
     }
   };
   renderLoginError = () => {
