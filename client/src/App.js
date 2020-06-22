@@ -3,7 +3,7 @@ import { Router, Route, Redirect, Switch } from "react-router-dom";
 import NotFound from "./components/notFound";
 import NavBar from "./components/navBar";
 import LoginForm from "./components/loginForm";
-import UserList from "./components/userList";
+import UserList from "./components/UserList";
 import RegisterForm from "./components/registerForm";
 import history from "./history";
 import "./App.css";

@@ -15,6 +15,14 @@
       "password": "12324",
       "email": "sahil24@gmail.com",
       "id": 2
+    },
+    {
+      "firstname": "ASMA",
+      "lastname": "asdfdsa",
+      "username": "gmnail@gmail.com",
+      "password": "sahil123",
+      "email": "sahil242927@gmail.com",
+      "id": 3
     }
   ]
 }
